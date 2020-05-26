@@ -1,0 +1,215 @@
+body{
+
+	width: 1400px;
+	margin: 0 auto;
+	border: 1px solid #b7b7b7;
+}
+
+h1 {
+
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h2 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+
+}
+
+p {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 20px auto;
+}
+
+/*GRID*/
+
+.full-width {
+
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width {
+
+	width: 700px;
+	float: left;
+}
+
+.third-width {
+
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+/*HEADER*/
+
+header {
+
+	height: 800px;
+	width: 1400px;
+	background: url("../images/hero-image.png") no-repeat center;
+}
+
+nav {
+
+	float: left;
+	padding: 30px 5px;
+	
+}
+
+nav ul li{
+
+	display: inline-block;
+}
+
+nav ul li a {
+
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px ;
+	color: #087e8b;
+	padding-left: 5px;
+}
+
+header h1{
+
+	font-size: 60px;
+	color: #bdbf09;
+	clear: both;
+	padding-top: 200px;
+	 
+}
+
+header h2 {
+
+	font-size: 48px;
+	font-weight: normal;
+	color: #087e8b;
+	text-align: center;
+	clear: both;
+}
+
+/*MY PORTFOLIO*/
+
+#portfolio {
+
+	height: 1450px;
+	width: 1200px;
+	color: #087e8b;
+	font-size: 24px;
+}
+
+#portfolio ul {
+
+	list-style: none;
+	height: 100%;
+}
+
+#portfolio ul li {
+
+	height: 33%;
+	float: left;
+	width: 600px;
+}
+
+#portfolio ul li a img{
+
+	padding: 50px 0;
+	margin-left: 75px;
+
+}
+
+/*ABOUT*/
+
+#about {
+
+	height: 700px;
+	width: 1400px;
+	color: white;
+	font-size: 24px;
+	background-color: #087e8b;
+}
+
+#about h2 {
+
+	float: left;
+	width: 600px;
+}
+
+#about p {
+
+	float: left;
+	width: 600px;
+}
+
+#about img {
+
+	margin-left: 200px;
+	margin-top: 80px;
+}
+
+/*CONTACT*/
+
+#contact {
+
+	height: 400px;
+	width: 1400px;
+	color: white;
+	font-size: 24px;
+	background-color: #095156;
+}
+
+#contact h1 {
+
+	margin: 0 auto;
+}
+
+/*#contact h2 {
+	
+	padding: 0 160px;
+}*/
+
+#contact ul {
+
+	list-style: none;
+	padding-right: 95px;
+}
+
+#contact ul li {
+
+	display: inline-block;
+	padding-left: 60px;
+	padding-top: 30px;
+
+}
+
+#contact h4 {
+
+	clear: both;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	padding-top: 100px;
+}
+
+#contact a {
+
+	text-decoration: none;
+	color: white;
+	
+}
+
+#contact p {
+
+	padding-left: 10px;
+}
