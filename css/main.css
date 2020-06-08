@@ -57,13 +57,21 @@ header {
 
 	height: 800px;
 	width: 1400px;
-	background: url("../images/hero-image.png") no-repeat center;
+	background: 
+	  linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+	  url("../images/desktop-cropped.jpg") no-repeat center;
+	background-size: cover;
+	background-blend-mode: darken;
 }
 
 nav {
 
-	float: left;
+	float: right;
 	padding: 30px 5px;
+	padding-bottom: 200px;
 	
 }
 
@@ -77,28 +85,55 @@ nav ul li a {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 18px ;
-	color: #087e8b;
-	padding-left: 5px;
+	color: white;
+	padding-left: 10px;
 }
 
-header h1{
+/*ANIMATION*/
 
-	font-size: 60px;
-	color: #bdbf09;
-	clear: both;
-	padding-top: 200px;
-	 
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+header h1 {
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;     
+  font-size: 60px;
+  color: #00ff00;
+  letter-spacing: 3px;
+  clear: both;
+  padding-left: 10px;
+}
+
+/* Animation */
+header h1 {
+  animation: animated-hello 3.5s steps(29,end) 1s 1 normal both,
+             animated-cursor 0.9s steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-hello{
+  from{width: 0;}
+  to{width: 390px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
 }
 
 header h2 {
 
 	font-size: 48px;
 	font-weight: normal;
-	color: #087e8b;
-	text-align: center;
+	color: white;
+	text-align: left;
 	clear: both;
+	width: 900px;
+	padding-left: 50px;
 }
-
 /*MY PORTFOLIO*/
 
 #portfolio {
@@ -115,11 +150,21 @@ header h2 {
 	height: 100%;
 }
 
-#portfolio ul li {
+#portfolio ul li p{
 
 	height: 33%;
 	float: left;
 	width: 600px;
+	padding-bottom: 150px;
+}
+
+#portfolio ul li h3{
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 20px auto;
+
 }
 
 #portfolio ul li a img{
