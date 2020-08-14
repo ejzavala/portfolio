@@ -161,7 +161,7 @@ address {
 
 header,
 footer {
-  background-color: #202322;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,7 +224,6 @@ header nav ul li {
 footer {
   text-align: center;
   flex-direction: column;
-  background-color: #095156;
 }
 
 footer p {
@@ -247,7 +246,7 @@ footer .social-icons {
 }
 
 footer .social-icons p {
-  background-color: #bdbf09;
+  background-color: #095156;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -263,7 +262,7 @@ footer .resume-icons {
 }
 
 footer .resume-icons p {
-  background-color: #bdbf09;
+  background-color: #095156;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -341,7 +340,7 @@ footer .copyright {
 /* about */
 
 .about {
-  background-color: #087e8b;
+  background-color: #202322;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
